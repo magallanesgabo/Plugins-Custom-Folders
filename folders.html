@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folders</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .folder-title {
+            margin-bottom: 20px;
+            font-size: 26px;
+            font-weight: 600;
+        }
+        .folder-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .folder {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            width: 200px;
+            height: fit-content;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .folder-icon {
+            transform: translateX(-9px);
+            width: 62px;
+        }
+        .folder-name {
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        .folder-info {
+            font-size: 12px;
+            font-weight: 500;
+            color: #999999;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="folder-title">Folders</h1>
+    <div class="folder-container">
+        <div class="folder">
+            <img class="folder-icon" src="https://img.icons8.com/?size=100&id=12160&format=png&color=000000">
+            <div class="folder-name">Results 2023</div>
+            <div class="folder-info">23 Files · 137 MB</div>
+        </div>
+        <div class="folder">
+            <img class="folder-icon" src="https://img.icons8.com/?size=100&id=12160&format=png&color=000000">
+            <div class="folder-name">Market Analysis</div>
+            <div class="folder-info">8 Files · 56 MB</div>
+        </div>
+        <div class="folder">
+            <img class="folder-icon" src="https://img.icons8.com/?size=100&id=12160&format=png&color=000000">
+            <div class="folder-name">All contract</div>
+            <div class="folder-info">37 Files · 92 MB</div>
+        </div>
+        <div class="folder">
+            <img class="folder-icon" src="https://img.icons8.com/?size=100&id=12160&format=png&color=000000">
+            <div class="folder-name">Archieved</div>
+            <div class="folder-info">99 Files · 267 MB</div>
+        </div>
+    </div>
+</body>
+</html>
